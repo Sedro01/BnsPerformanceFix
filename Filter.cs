@@ -86,7 +86,8 @@ namespace BnsPerformanceFix
                 else if (line.StartsWith("-"))
                 {
                     // exclude
-                    return new Rule { Include = false, Pattern = BuildRegex(line.Substring(1)) };
+                    var pattern = line.Substring(1).TrimStart(' ');
+                    return new Rule { Include = false, Pattern = BuildRegex(pattern) };
                 }
                 else if (Regex.IsMatch(line, @"^[\w*?]"))
                 {
