@@ -1,5 +1,7 @@
 # BnS Performance Fix
 
+![Build](https://github.com/Sedro01/BnsPerformanceFix/workflows/Build/badge.svg)
+
 A tool to optimize game performance for Blade & Soul.
 
 Blade & Soul's poor performance is caused by a linear-time search for text localization. The game's localization file contains about 700,000 text strings. Many of these strings are for old, outdated content. In a party or raid setting, your game might search this file thousands of times per second.
