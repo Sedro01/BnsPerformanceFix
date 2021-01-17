@@ -111,15 +111,15 @@ jobs:
       run: Compress-Archive -Path "./bin/Release/*" -DestinationPath BnsPerformanceFix.zip 
 
     - name: Release
-      # if: ${{ github.ref == 'refs/heads/master' && steps.datfile.outcome != 'skipped' }}
+      if: ${{ github.ref == 'refs/heads/master' && steps.datfile.outcome != 'skipped' }}
       uses: softprops/action-gh-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: v${{ github.run_number }}
-        name: BnsPerformanceFix v${{ github.run_number }} ${{ matrix.language }} (patch ${{ steps.get-patch.outputs.patch }})
+        name: Release v${{ github.run_number }} (patch ${{ steps.get-patch.outputs.patch }})
         files: |
           BnsPerformanceFix.zip
           release/*.zip
-        draft: true
-        prerelease: true
+        draft: false
+        prerelease: false
