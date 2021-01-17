@@ -1,0 +1,3 @@
+[submodule "BnsDatTool"]
+	path = BnsDatTool
+	url = https://github.com/Sedro01/BnsDatTool.git
