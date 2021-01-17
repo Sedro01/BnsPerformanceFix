@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BnsPerformanceFix", "BnsPerformanceFix.csproj", "{780253EC-9F34-436E-ADC7-AA20D89BAE88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BnsDatTool", "BnsDatTool\BnsDatTool\BnsDatTool.csproj", "{37625F67-112A-4F47-9B94-4263FFDC5E6E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,14 +21,6 @@ Global
 		{780253EC-9F34-436E-ADC7-AA20D89BAE88}.Release|Any CPU.Build.0 = Release|Any CPU
 		{780253EC-9F34-436E-ADC7-AA20D89BAE88}.Release|x64.ActiveCfg = Release|Any CPU
 		{780253EC-9F34-436E-ADC7-AA20D89BAE88}.Release|x64.Build.0 = Release|Any CPU
-		{37625F67-112A-4F47-9B94-4263FFDC5E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37625F67-112A-4F47-9B94-4263FFDC5E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37625F67-112A-4F47-9B94-4263FFDC5E6E}.Debug|x64.ActiveCfg = Debug|x64
-		{37625F67-112A-4F47-9B94-4263FFDC5E6E}.Debug|x64.Build.0 = Debug|x64
-		{37625F67-112A-4F47-9B94-4263FFDC5E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37625F67-112A-4F47-9B94-4263FFDC5E6E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{37625F67-112A-4F47-9B94-4263FFDC5E6E}.Release|x64.ActiveCfg = Release|x64
-		{37625F67-112A-4F47-9B94-4263FFDC5E6E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
