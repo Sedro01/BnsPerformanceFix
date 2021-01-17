@@ -66,6 +66,8 @@ Name.AccountLevel_Name_003
 
 - Filters listed earlier in the file take priority
 - Filters are case-insensitive
+- The `*` wildcard matches zero or more characters
+- The `?` wildcard matches any 1 character
 - Lines beginning with `#` are treated as comments
 - Lines beginning with `-` are exclusions
 
