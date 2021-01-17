@@ -89,9 +89,11 @@ A filter is a text file with a list of aliases.
 
 - Patterns listed earlier in the file take priority
 - Patterns are case-insensitive (`Name.*` and `name.*` are equivalent)
+- The `*` wildcard matches zero or more characters
+- The `?` wildcard matches any 1 character
 - Lines beginning with `#` are treated as comments
 - Lines beginning with `-` are exclusions
-- Aliases which do not any pattern will be excluded
+- Aliases which do not match any pattern will be excluded
 
 ## Examples
 
