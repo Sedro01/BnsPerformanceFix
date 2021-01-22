@@ -106,9 +106,9 @@ Msg.Party.Member.Dead
 Msg.Pc.Dead
 
 # combat log (for self and target only)
--Msg.Battle.Party.*
--Msg.Battle.Other.*
-Msg.Battle.*
+#-Msg.Battle.Party.*
+#-Msg.Battle.Other.*
+#Msg.Battle.*
 
 # IA loot (for linking loot to the raid)
 Item.Name2.General_Grocery_SpecialMaterial_1239

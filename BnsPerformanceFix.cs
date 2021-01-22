@@ -13,7 +13,7 @@ namespace BnsPerformanceFix
     {
         public static void FilterLocalDatInPlace(string datfile, Filter filter)
         {
-            var is64 = datfile.EndsWith("64.dat");
+            var is64 = datfile.Contains("64");
             var extracted = ExtractDat(datfile, is64);
             var binfile = Path.Combine(extracted, is64 ? "localfile64.bin" : "localfile.bin");
             FilterLocalBinInPlace(binfile, filter);
