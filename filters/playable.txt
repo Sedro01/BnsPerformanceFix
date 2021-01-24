@@ -110,6 +110,24 @@ Msg.Pc.Dead
 #-Msg.Battle.Other.*
 #Msg.Battle.*
 
+# Attributes for items/unity/compound
+Name.Item.boss-*
+Name.Item.pc-*
+Name.Item.Symbol.*
+Name.Item.category
+Name.Item.attack-*
+Name.Item.defend-*
+Name.Item.Required.Level
+Name.Item.Required.Level2
+Name.Item.Required.Everyone
+
+#Countdown Timer
+Name.DuelLobbyTimer.*
+
+# Party member Lvl
+Name.Party.Member.*
+Name.Level2.Level.*
+
 # IA loot (for linking loot to the raid)
 Item.Name2.General_Grocery_SpecialMaterial_1239
 Item.Name2.General_Grocery_Coin_0220
